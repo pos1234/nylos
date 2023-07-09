@@ -134,9 +134,10 @@ function App() {
         </div>
     <div className=' pr-20 pt-20 grid grid-cols-1 md:grid-cols-2 xl:pt-0'>
         <div className=' w-screen px-5 sm:pl-2 sm:pr-5 md:w-3/4 md:px-2 lg:w-auto lg:pl-7 lg:mt-20 xl:px-20 xl:mt-40'>
-            <h1 className='font-bold font-syne text-4xl sm:text-6xl leading-none text-blackText md:text-4xl lg:text-5xl xl:text-6xl'>Lorem ipsum dolor sit amet consectetur.</h1>
-            <p className='font-nunito text-text79  mt-3 sm:mt-auto sm:leading-9 font-normal text-base sm:text-2xl lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipiscing elit interdum 
-                ullamcorper sed pharetra sene.
+            <h1 className='font-bold font-syne text-4xl sm:text-6xl leading-none text-blackText md:text-4xl lg:text-5xl xl:text-6xl'>Experience the Power of Flow with NYLOS.</h1>
+            <p className='font-nunito text-text79  mt-3 pt-5 sm:mt-auto sm:leading-9 font-normal text-base sm:text-2xl lg:text-xl'> Harnessing the vitality and continuity of the Nile, NYLOS is your dedicated partner for streamlining HR operations. 
+            </p>
+            <p className='font-nunito text-text79  mt-3 pt-3 sm:mt-auto sm:leading-9 font-normal text-base sm:text-2xl lg:text-xl'>  From recruiting to retirement, our comprehensive Human Resource Information System (HRIS) allows you to manage your workforce effectively while ensuring compliance with Ethiopian tax and labor laws.
             </p>
             <div className='mt-10 px-14'>
                 <button className='font-nunito bg-gradient-to-b from-gradientFirst to-gradientSecond w-60 h-14 sm:w-48 sm:h-16 px-2 py-1 text-white rounded-full sm:mr-2.5 mb-4 font-bold text-lg'>Get Started</button>
@@ -160,8 +161,8 @@ function App() {
        <div id='about' className='grid grid-cols-1 pt-20 lg:px-0 sm:px-0 md:pt-5 md:pl-3 lg:pt-20 lg:grid-cols-2 lg:pl-5 '>
                 <div className='px-5 sm:hidden'>
                     <h1 className='font-nunito font-semibold text-lg gradientText'>Why Choose Us</h1>
-                    <h2 className='font-syne font-bold text-2xl'>Lorem Ipsum Dolor Sit Amet Consectetur</h2>
-                </div>
+{/*                     <h2 className='font-syne font-bold text-2xl'></h2>
+ */}                </div>
                 <div className='gap-2 py-7 pr-1 grid grid-cols-2 sm:py-0 sm:pr-0 sm:gap-5 md:gap-10 md:pr-20 lg:px-0 lg:py-0 xl:pl-10'>
                     <div className='mx-auto lg:p-0 lg:my-auto'>
                         <img src={image2} className='w-40 h-52 sm:w-80 sm:h-80 lg:h-80 lg:pt-0'/>
@@ -175,12 +176,12 @@ function App() {
                 </div>
                 <div className='px-5 sm:pt-10 md:pr-10 lg:pt-52 lg:pr-5 xl:pr-40 '>
                     <h1 className='font-nunito hidden sm:block sm:font-semibold sm:text-lg sm:pb-3 gradientText'>Why Choose Us</h1>
-                    <h2 className='font-syne hidden sm:block sm:font-bold sm:text-2xl'>Lorem Ipsum Dolor Sit Amet Consectetur</h2>
-                    <p className='font-nunito text-base font-normal text-fadedText mb-7 sm:mt-5'>
-                        It is a long established fact that a reader will be distracted by the teadable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.
+{/*                     <h2 className='font-syne hidden sm:block sm:font-bold sm:text-2xl'>Lorem Ipsum Dolor Sit Amet Consectetur</h2>
+ */}                    <p className='font-nunito text-base font-normal text-fadedText mb-7 sm:mt-5'>
+                    NYLOS isn't merely an HRIS - it's a robust solution that brings the dynamic power of the Nile to your HR operations. With features designed for efficiency and compliance, NYLOS empowers businesses to navigate their HR tasks with increased productivity and peace of mind. 
                     </p>
                     <p className='font-nunito text-base font-normal text-fadedText mb-7 sm:mb-16'>
-                        A domain name is one of the first steps to establishing your brand. Secure a consistent brand image with a domain name that matches your business.
+                    By choosing NYLOS, you're aligning your business with a partner committed to nourishing your HR functions just like the Nile nourishes the lands it touches.
                     </p>
                     <button className='font-nunito bg-gradient-to-b from-gradientFirst to-gradientSecond w-44 h-14 sm:w-48 sm:h-16 px-2 py-1 text-white rounded-full sm:mr-2.5 mb-4 font-bold text-lg'>Get Started</button>
                 </div>
@@ -190,15 +191,15 @@ function App() {
  
  <div id='services' className='text-center pt-20 px-5  md:max-lg:px-8 lg:px-10 '>
                 <h1 className='font-nunito font-bold text-lg px-auto text-center gradientText'>Services</h1>
-                <h1 className='font-syne text-blackText font-bold text-2xl px-auto pt-3 pb-14 text-center xl:px-80 xl:py-3 xl:text-5xl '>Lorem ipsum dolor sit amet consectetur. Vel elit.</h1>
+                <h1 className='font-syne text-blackText font-bold text-2xl px-auto pt-3 pb-14 text-center xl:px-80 xl:py-3 xl:text-5xl '>Our services extend beyond providing an HRIS solution.</h1>
                 <div className='font-nunito grid grid-cols-1 lg:grid-cols-3 gap-12  xl:px-24 xl:py-10'>
                     <div className='py-10 md:max-lg:grid md:max-lg:grid-cols-2 lg:h-full px-5 lg:pt-5 lg:py-0 xl:py-14 rounded-3xl'>
                         <div className='flex justify-center'>
                             <img src={image4} className=' w-80 h-56  xl:w-96 xl:h-60'/>
                         </div>
                         <div className='md:max-lg:pt-10'>
-                            <h1 className='font-bold text-3xl text-blackText md:max-lg:pb-5 lg:pt-0 xl:pt-8'>Lorem ipsum</h1>
-                            <p className='font-normal text-text79 text-base py-5 md:max-lg:pb-5 lg:py-10 xl:text-xl'>Contrary to popular belief, Lorem ipsum is not simply random text. it has roots in a piece.</p>
+                            <h1 className='font-bold text-3xl text-blackText md:max-lg:pb-5 lg:pt-0 xl:pt-8'>Continuous Support</h1>
+                            <p className='font-normal text-text79 text-base py-5 md:max-lg:pb-5 lg:py-10 xl:text-xl'>Our team is always ready to help and answer your queries.</p>
                             <a className='font-bold text-blackText text-lg'>Learn More</a>
                         </div>
                     </div>
@@ -207,8 +208,8 @@ function App() {
                             <img src={image5} className='w-80 h-56  xl:w-96 xl:h-60'/>
                         </div>
                         <div className='md:max-lg:pt-10 text-white'>
-                            <h1 className='font-bold text-3xl md:max-lg:pb-5 lg:pt-0 xl:pt-8'>Lorem ipsum</h1>
-                            <p className='font-normal text-base py-5 md:max-lg:pb-5 lg:py-10 xl:text-xl'>Contrary to popular belief, Lorem ipsum is not simply random text. it has roots in a piece.</p>
+                            <h1 className='font-bold text-3xl md:max-lg:pb-5 lg:pt-0 xl:pt-8'>System Maintenance</h1>
+                            <p className='font-normal text-base py-5 md:max-lg:pb-5 lg:py-10 xl:text-xl'>We ensure that NYLOS is always up-to-date and running smoothly.</p>
                             <a className='font-bold text-lg '>Learn More</a>
                         </div>
                     </div>
@@ -217,8 +218,8 @@ function App() {
                             <img src={image6} className=' w-80 h-56  xl:w-96 xl:h-60'/>
                         </div>
                         <div className='md:max-lg:pt-10'>
-                            <h1 className='font-bold text-blackText mt-5 md:mt-0 text-3xl md:max-lg:pb-5 lg:pt-0 xl:pt-8'>Lorem ipsum</h1>
-                            <p className='font-normal text-text79 text-base py-5 md:max-lg:pb-5 lg:py-10 xl:text-xl'>Contrary to popular belief, Lorem ipsum is not simply random text. it has roots in a piece.</p>
+                            <h1 className='font-bold text-blackText mt-5 md:mt-0 text-3xl md:max-lg:pb-5 lg:pt-0 xl:pt-8'>User Training</h1>
+                            <p className='font-normal text-text79 text-base py-5 md:max-lg:pb-5 lg:py-10 xl:text-xl'>We provide comprehensive training to ensure you can make the most out of NYLOS</p>
                             <a className='font-bold text-lg text-blackText'>Learn More</a>
                         </div>
                     </div>
@@ -229,15 +230,15 @@ function App() {
 {/* Feature page */}
 <div id='feature' className=' grid grid-cols-1 px-3 mt-20 gap-20 sm:px-5 md:max-lg:px-10 lg:mt-48 lg:mb-20  lg:grid-cols-2 xl:gap-0 xl:px-0 xl:pl-14'>
                 <div className='pb-8 px-2 sm:pb-14 sm:px-5 md:px-10 lg:pr-20 lg:pt-20 lg:pb-10 lg:px-5 lg:ml-5 xl:ml-32 featureFirstChild'>
-                    <h1 className='font-syne font-bold text-blackText text-4xl  xl:5xl'>Lorem ipsum dolor sit amet Consectetur. Semper duis at.</h1>
-                    <p className='font-nunito font-base text-xl text-text79 my-8'>Lorem ipsum dolor sit amet Consectetur. Plate viverra platea in sed elementum suscipit massa. Mi mauris enim phasellus mattis in ut. Hac vulputate varius hac tindidunt.</p>
+                    <h1 className='font-syne font-bold text-blackText text-4xl  xl:5xl'>Unlock HR Excellence with NYLOS.</h1>
+                    <p className='font-nunito font-base text-xl text-text79 my-8'>Just as the Nile's rich silt benefits the lands it touches, NYLOS brings numerous features that benefit your business.</p>
                     <div className='grid grid-cols-12'>
                         <div className='col-span-3 sm:col-span-2 bg-gradient-to-b from-gradientFirst to-gradientSecond rounded-2xl flex justify-center'>
                             <img src={image7} className='w-14 h-24 '/>
                         </div>
                         <div className='col-span-9 pl-5 sm:col-span-10 sm:pl-7 lg:pr-14 lg:pl-5'>
-                            <h1 className='font-syne font-bold text-xl pb-3 xl:text-3xl'>Cost Effective</h1>
-                            <p className='font-nunito text-text79'>Contrary to popular belief. Lore Ipsum is not simplu random text.</p>
+                            <h1 className='font-syne font-bold text-xl pb-3 xl:text-3xl'>HR Management</h1>
+                            <p className='font-nunito text-text79'>From attendance tracking to payroll, our platform integrates all aspects of HR into one efficient system.</p>
                         </div>
                     </div>
                 </div>
@@ -250,7 +251,7 @@ function App() {
  <div id='testimonial' className=' grid grid-cols-12 mt-10'>
                 <div className='col-span-12 px-3 md:px-0 md:col-span-10 md:pl-10 lg:pl-12 xl:pl-40'>
                     <h1 className='font-syne font-semibold text-textBlack text-2xl md:py-3 lg:py-5 xl:py-10 xl:text-6xl'>What client says</h1>
-                    <p className='font-lexend font-light text-xl xl:w-1/2'>Bootstrap code with a well-organized Figma file to design & develop your next website in minutes.</p>
+                    <p className='font-lexend font-light text-xl xl:w-1/2'>Our clients' success stories speak volumes about the power of NYLOS. Our comprehensive HRIS solution has helped organizations overcome their HR challenges, streamline their operations, and achieve a state of flow.</p>
                 </div>
                 <div className='order-3 md:order-none pt-10 pr-5 col-span-12 flex justify-end items-end md:pt-0 md:pr-0 md:justify-start md:col-span-2'>
                     <div onClick={handleTrue} className='bg-[#F4F4F4] rounded-full w-10 h-10 flex justify-center items-center mr-5 hover:bg-gradient-to-b hover:from-gradientFirst hover:to-gradientSecond hover:text-white cursor-pointer'> <ArrowBackIcon/></div>
@@ -260,37 +261,37 @@ function App() {
                 : 'col-span-12 hidden md:grid gap-5 grid-cols-1 md:-ml-96 lg:-ml-80 lg:px-5 md:grid-cols-5 md:mt-10 lg:mt-20 xl:-ml-80 slideImage'} >
                     <TestCard 
                         avatarImage={image13}
-                        name='Annette Black'
-                        position='Chief Chairman of Netflix'
-                        description='Lorem ipsum dolor sit amet consectetur. Felis aliquam non velit netus pellentesque nulla vitae dapibus. Sed sapien nec pharetra pellentesque sollicitudin. Risus mi et vulputate dignissim. Vitae nunc nunc massa.'
+                        name='Helen Daniel'
+                        position='CHRO'
+                        description='NYLOS has transformed our HR operations. The comprehensive solution, with its intuitive features and robust support, has enabled us to streamline our processes, ensure compliance, and foster a productive work environment.'
                         companyImage={image9}
                     />
                     <TestCard 
                         avatarImage={image13}
-                        name='Annette Black'
-                        position='Chief Chairman of Netflix'
-                        description='Lorem ipsum dolor sit amet consectetur. Felis aliquam non velit netus pellentesque nulla vitae dapibus. Sed sapien nec pharetra pellentesque sollicitudin. Risus mi et vulputate dignissim. Vitae nunc nunc massa.'
+                        name='Helen Daniel'
+                        position='CHRO'
+                        description='NYLOS has transformed our HR operations. The comprehensive solution, with its intuitive features and robust support, has enabled us to streamline our processes, ensure compliance, and foster a productive work environment.'
                         companyImage={image10}
                     />
                     <TestCard 
                         avatarImage={image13}
-                        name='Annette Black'
-                        position='Chief Chairman of Netflix'
-                        description='Lorem ipsum dolor sit amet consectetur. Felis aliquam non velit netus pellentesque nulla vitae dapibus. Sed sapien nec pharetra pellentesque sollicitudin. Risus mi et vulputate dignissim. Vitae nunc nunc massa.'
+                        name='Helen Daniel'
+                        position='CHRO'
+                        description='NYLOS has transformed our HR operations. The comprehensive solution, with its intuitive features and robust support, has enabled us to streamline our processes, ensure compliance, and foster a productive work environment.'
                         companyImage={image11}
                     />
                     <TestCard 
                         avatarImage={image13}
-                        name='Annette Black'
-                        position='Chief Chairman of Netflix'
-                        description='Lorem ipsum dolor sit amet consectetur. Felis aliquam non velit netus pellentesque nulla vitae dapibus. Sed sapien nec pharetra pellentesque sollicitudin. Risus mi et vulputate dignissim. Vitae nunc nunc massa.'
+                        name='Helen Daniel'
+                        position='CHRO'
+                        description='NYLOS has transformed our HR operations. The comprehensive solution, with its intuitive features and robust support, has enabled us to streamline our processes, ensure compliance, and foster a productive work environment.'
                         companyImage={image12}
                     />
                     <TestCard 
                         avatarImage={image13}
-                        name='Annette Black'
-                        position='Chief Chairman of Netflix'
-                        description='Lorem ipsum dolor sit amet consectetur. Felis aliquam non velit netus pellentesque nulla vitae dapibus. Sed sapien nec pharetra pellentesque sollicitudin. Risus mi et vulputate dignissim. Vitae nunc nunc massa.'
+                        name='Helen Daniel'
+                        position='CHRO'
+                        description='NYLOS has transformed our HR operations. The comprehensive solution, with its intuitive features and robust support, has enabled us to streamline our processes, ensure compliance, and foster a productive work environment.'
                         companyImage={image12}
                     />
                 </div>
@@ -350,16 +351,16 @@ function App() {
  {/* Solutions Page */}
  <div id='solutions' className='px-3 my-28 sm:px-5 md:max-lg:my-40 md:px-10 lg:px-14 lg:pt-20 xl:px-24'>
                 <h1 className='font-nunito font-bold text-lg text-center gradientText'>Solutions</h1>
-                <h2 className='font-syne font-bold text-2xl py-3 sm:py-5 lg:py-10 lg:px-20 lg:text-5xl text-center'>Lorem ipsum dolor sit amet consectetur.</h2>
+                <h2 className='font-syne font-bold text-2xl py-3 sm:py-5 lg:py-10 lg:px-20 lg:text-5xl text-center'>Streamline Your HR Operations with NYLOS.</h2>
                 <div className='font-nunito font-bold text-2xl py-5 sm:py-10 xl:text-3xl text-blackText grid grid-cols-1 lg:gap-8 lg:grid-cols-3'>
                     <div className='p-7 text-white bg-gradient-to-b from-gradientFirst to-gradientSecond text-center rounded-xl'>
-                        <p>Lorem ipsum Dolor</p>
+                        <p>Attendance Tracking</p>
                     </div>
                     <div className='hidden lg:block p-7 bg-gray-100 text-center rounded-xl'>
-                        <p>Lorem ipsum Dolor</p>
+                        <p>Payslip Generation</p>
                     </div>
                     <div className='hidden lg:block p-7 bg-gray-100 text-center rounded-xl'>
-                        <p>Lorem ipsum Dolor</p>
+                        <p>Pension Management</p>
                     </div>
                     
                 </div> 
@@ -373,7 +374,13 @@ function App() {
                                 <h1 className='font-syne font-bold text-3xl lg:text-4xl'>Lorem ipsum dolor sit amet</h1>
                             </div>
                         </div>
-                        <p className='pt-7 sm:pt-auto font-nunito font-normal text-base text-text79 lg:text-xl'>Lorem ipsum dolor sit amet consectetur. Nec tellus eu ridiculus etiam. Duis platea dictum massa sapien sed nullam nec. Sit malesuada pulvinar sed et nibh. Velit lacus.</p>
+                        <p className='pt-7 sm:pt-auto font-nunito font-normal text-base text-text79 lg:text-xl'>Our HRIS is not just a tool; it's a comprehensive solution designed to cater to all your HR needs, such as:
+                        </p>
+                        <ul className='text-fadedText mt-1'>
+                            <li>- Monitor employee work hours effectively for an accurate payroll system</li>
+                            <li>- Generate accurate payslips in a click, making payroll process efficient.</li>
+                            <li>- Manage employee pension contributions accurately and seamlessly.</li>
+                        </ul>
                     </div>
                     <div className='flex pb-10 my-10 md:max-lg:my-10 md:py-auto justify-center lg:justify-left'>
                         <img src={image15} className=' sm:px-8 sm:pb-8'/>
@@ -395,7 +402,7 @@ function App() {
 <div id='booking' className='w-full lg:w-auto text-white px-3 grid grid-cols-1 pt-10 pb-10 mb-20 lg:pb-0 md:grid-cols-1  md:mt-10 lg:mt-40 lg:mb-28 lg:grid-cols-2 lg:mx-14 lg:pt-10 xl:pt-20 xl:px-10 xl:mx-24 booking'>
               <div className='order-2 px-0 sm:max-md:pl-10 md:max-lg:pl-40 lg:order-1 lg:pt-0 xl:pt-20'>
                 <h1 className='font-syne font-bold text-4xl  xl:text-5xl'>Start your Journey today</h1>
-                <p className='font-nunito font-normal text-lg xl:py-7'>Lorem ipsum dolor sit amet consectetur. Sagittis.</p>
+                <p className='font-nunito font-normal text-lg xl:py-7'>Leave your email Address below to get started with nylos</p>
                 <div className='text-center sm:text-left grid grid-cols-1 xl:gap-36 xl:grid-cols-2'>
                     <div className='py-5 xl:py-0'>
                         <form onSubmit={handleSubmit}>
@@ -418,7 +425,7 @@ function App() {
         <div id='footer' className='-mt-60 w-full text-white pl-3 pb-10 grid grid-cols-1 gap-7 pt-10 sm:grid-cols-1 md:mt-10 md:grid-cols-2 md:pt-10 md:gap-0 md:py-20 md:px-10 footer'>
                 <div className='order-2 md:order-1 md:pt-48 lg:pt-40 xl:pl-28'>
                     <img src={logo} className='mt-5'/>
-                    <p className='font-nunito font-light text-lg pt-5 pl-6 md:pl-0 lg:pt-10'>Aenean vestibulum felis nec egestas fringilla. Duis non felis consequat, varius sapien convallis, tincidunt nisl. </p>
+                    <p className='font-nunito font-light text-lg pt-5 pl-6 md:pl-0 lg:pt-10'>Start your Journey today with NYLOS. With our commitment to continuous support and comprehensive HR solutions, NYLOS is here to propel your HR operations into a state of flow. Sign up today to experience the power of the Nile in your business.</p>
                     <ul className='py-5 pl-6 md:pl-0 lg:py-8'>
                         <FooterItems href="#home" text="Home"/>
                         <FooterItems href="#about" text="About"/>
@@ -454,8 +461,7 @@ function App() {
                 </div>
                 <div className='order-1 p-12 ml-10 sm:max-md:mx-20 text-black bg-white rounded-2xl mt-80 md:order-2 md:py-7 md:px-5 md:-mt-10 xl:-mt-10 xl:mr-14 xl:ml-20'>
                     <h1 className='font-lexend font-semibold text-2xl xl:font-syne xl:font-bold'>Request A Quote — let’s work together.</h1>
-                    <p className='font-lexend font-light text-base py-5'>Lorem ipsum dolor sit amet consectetur adipiscing elit 
-interdum ullamcorper sed pharetra sene.</p>
+                    <p className='font-lexend font-light text-base py-5'>Embark on your journey with NYLOS. Let us work together to streamline your HR operations and propel your business to new heights of success.</p>
                     <form ref={form}  onSubmit={handleFormSubmit}>
                         <div className='font-lexend font-light text-sm grid grid-cols-2 gap-5'>
                             <div className='col-span-2 lg:col-span-1'>
