@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Syne:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Nunito:wght@300&family=Syne:wght@400;700&display=swap');
+  body{
+   overflow-x: hidden; 
+   scroll-behavior: smooth !important;
+  }
+  *{
+    scroll-behavior: smooth !important;
+  }
+.slideImage{
+    transition: margin 1s;
+    overflow: hidden;
+}
+.smallSlide{
+    transition: all 1s;
+}
+.homeContainer{
+    background-image: url('./images/Background.svg') ;
+    background-repeat: no-repeat;
+    background-position-x: 27rem;
+    background-size: 70rem;
+}
+.homeImage{
+    width: 769px;
+    height: 584px;
+}
+.headerSpan{
+    background-color: rgba(255, 255, 255, .1);
+    height: 690px;
+}
+.humbergur{
+    transition: all 1s;
+}
+.humbergur:active :nth-child(1){
+    transition: all 0.5s;
+    transform: rotate(-45deg) translate(-17%,50%);
+}
+.humbergur:active :nth-child(2){
+    transition: all 0.5s;
+    transform: rotate(45deg);
+}
+.humbergur:active :nth-child(3){
+    transition: all 0.5s;
+    transform: rotate(-45deg) translate(15%,0%);
+}
+.humbergurClose :nth-child(1){
+    transition: all 0.5s;
+    transform: rotate(-45deg) translate(-30%,50%);
+}
+.humbergurClose :nth-child(2){
+    transition: all 0.5s;
+    transform: rotate(45deg);
+}
+.humbergurClose :nth-child(3){
+    transition: all 0.5s;
+    transform: rotate(-45deg) translate(30%,-70%);
+}
+.navPhone{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 1);
+    right:0;
+}
+.feature{
+    background-image: url('./images/Background2.svg');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size:14rem;
+}
+.featureFirstChild{
+    background-image: url('./images/Background4.svg');
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    background-size: cover;
+}
+.gradientText{  
+    background: linear-gradient(#00A3E3,#9FCD10);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.booking{
+    background-image: url('./images/Background6.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.input{
+   background-color: rgba(255, 255, 255, .1); 
+}
+.footer{
+    background-image: url('./images/BG.svg');
+    background-repeat: no-repeat;
+}
+.footerLinks{
+ background-color: rgba(255, 255, 255, .1);
+ border-radius: 15px;
+}
+@media (max-width:1370px){
+    .homeContainer{
+        background-position-x: 23rem;
+        background-size: 62rem;
+    }   
+    .featureFirstChild{
+        padding-top: 3rem !important;
+    } 
+}
+@media (max-width:1300px){ 
+    .homeContainer{
+        background-position-x: 22rem;
+        background-size: 58rem;
+    }
+     
+}
+
+ @media (max-width:1200px){
+    .homeContainer{
+        background-position-x: 15rem;
+        background-size: 65rem;
+    }
+     
+} 
+@media (max-width:1100px){
+    .homeContainer{
+        background-position-x: 10rem;
+    }
+    .feature{
+        background-size: 18rem;
+    } 
+    
+}
+@media (max-width:1030px){
+    .booking{
+        background-size:cover;
+        background-position-x: -10rem;
+        overflow-x: hidden;
+    }
+    .footer{
+        background-image: url('./images/BG.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -4rem;
+    } 
+}
+@media (max-width:768px){
+    .homeContainer{
+        overflow-x: hidden;
+        background-image: url('./images/Background.svg') ;
+        background-repeat: no-repeat;
+        background-position-x: -25rem;
+        background-size: 87rem;
+    }
+    .feature{
+        background-size: 16rem;
+        background-position-x:120%;
+    }    
+}
+@media (max-width:576px){
+    .homeImage{
+        width: 100%;
+        height: 100%;
+        margin-top: 3rem;
+    }
+    .feature{
+        background-size: 10rem;
+        background-position-x:120%;
+    } 
+    .footer{
+        background-image: url('./images/BG.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -4rem;
+    }  
+}
