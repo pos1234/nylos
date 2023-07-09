@@ -200,7 +200,7 @@ function App() {
                         <div className='md:max-lg:pt-10'>
                             <h1 className='font-bold text-3xl text-blackText md:max-lg:pb-5 lg:pt-0 xl:pt-8'>Continuous Support</h1>
                             <p className='font-normal text-text79 text-base py-5 md:max-lg:pb-5 lg:py-10 xl:text-xl'>Our team is always ready to help and answer your queries.</p>
-                            <a className='font-bold text-blackText text-lg'>Learn More</a>
+                            <a href='#services' aria-label='learn more second' className='font-bold text-blackText text-lg'>find out more</a>
                         </div>
                     </div>
                     <div className='bg-gradient-to-b from-gradientFirst to-gradientSecond md:max-lg:grid md:max-lg:grid-cols-2 xl:h-full px-5 py-14 rounded-3xl lg:pt-7 lg:py-10 xl:py-14'>
@@ -210,7 +210,7 @@ function App() {
                         <div className='md:max-lg:pt-10 text-white'>
                             <h1 className='font-bold text-3xl md:max-lg:pb-5 lg:pt-0 xl:pt-8'>System Maintenance</h1>
                             <p className='font-normal text-base py-5 md:max-lg:pb-5 lg:py-10 xl:text-xl'>We ensure that NYLOS is always up-to-date and running smoothly.</p>
-                            <a className='font-bold text-lg '>Learn More</a>
+                            <a href='#services' aria-label='learn more third' className='font-bold text-lg '>check it out</a>
                         </div>
                     </div>
                     <div className='py-10 md:max-lg:grid md:max-lg:grid-cols-2 lg:h-full px-5 lg:pt-5 lg:py-0 xl:py-14 rounded-3xl'>
@@ -220,7 +220,7 @@ function App() {
                         <div className='md:max-lg:pt-10'>
                             <h1 className='font-bold text-blackText mt-5 md:mt-0 text-3xl md:max-lg:pb-5 lg:pt-0 xl:pt-8'>User Training</h1>
                             <p className='font-normal text-text79 text-base py-5 md:max-lg:pb-5 lg:py-10 xl:text-xl'>We provide comprehensive training to ensure you can make the most out of NYLOS</p>
-                            <a className='font-bold text-lg text-blackText'>Learn More</a>
+                            <a href='#services' aria-label='learn more fourth' className='font-bold text-lg text-blackText'>discover more</a>
                         </div>
                     </div>
                    
