@@ -4,7 +4,7 @@ const FooterLists = ({children})=>{
 const FooterItems = (props)=>{
     return(
         <FooterLists>
-            <a className='font-nunito font-medium text-lg md:mr-7 xl:mr-10 md:font-normal' href={props.href}>{props.text}</a>
+            <a aria-label={props.ariaLabel} className='font-nunito font-medium text-lg md:mr-7 xl:mr-10 md:font-normal' href={props.href}>{props.text}</a>
         </FooterLists>
     )
 }

@@ -1,24 +1,24 @@
 
 import './index.css'
-import logo from './images/logo.png'
-import logo2 from './images/logo2.png'
-import image from './images/Image.svg'
-import image1 from './images/Group11.svg'
-import image2 from './images/Group12.svg'
-import image3 from './images/Rectangle10.svg'
-import image4 from './images/Icon2.svg'
-import image5 from './images/Icon.svg'
-import image6 from './images/Detail.svg'
-import image7 from './images/Group10.svg'
-import image8 from './images/Detail.svg'
-import image9 from './images/youtube.svg'
-import image10 from './images/google.svg'
-import image11 from './images/netflix.svg'
-import image12 from './images/amazon.svg'
-import image13 from './images/Avatar.svg'
-import image14 from './images/Icon5.svg'
-import image15 from './images/Rectangle11.png'
-import image16 from './images/Image2.svg'
+import logo from './images/logo.webp'
+import logo2 from './images/logo2.webp'
+import image from './images/Image.webp'
+import image1 from './images/Group11.webp'
+import image2 from './images/Group12.webp'
+import image3 from './images/Rectangle10.webp'
+import image4 from './images/Icon2.webp'
+import image5 from './images/Icon.webp'
+import image6 from './images/Detail.webp'
+import image7 from './images/Group10.webp'
+import image8 from './images/Detail.webp'
+import image9 from './images/youtube.webp'
+import image10 from './images/google.webp'
+import image11 from './images/netflix.webp'
+import image12 from './images/amazon.webp'
+import image13 from './images/Avatar.webp'
+import image14 from './images/Icon5.webp'
+import image15 from './images/Rectangle11.webp'
+import image16 from './images/Image2.webp'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import TestCard from './components/TestCard'
@@ -87,8 +87,8 @@ function App() {
 <div id='home' className='homeContainer'>
            <div  className='grid grid-cols-2 sm:grid-cols-12 md:grid-cols-12 md:max-lg:pt-5'>
             <div className='relative mt-5 ml-3 sm:mt-0 w-80 sm:ml-2 md:w-40 md:ml-2 md:mt-2 lg:w-40 lg:mt-8 lg:ml-10 xl:mt-5 xl:ml-20 xl:w-80 '>
-                 <a href='#home'><img src={logo} className='md:hidden w-40 ml-2 sm:w-60 sm:mt-7'/></a>
-                 <a href='#home'><img src={logo2}  className='absolute hidden md:block md:m-0 md:mt-0 md:h-12 lg:h-15 xl:h-20'/></a>
+                 <a href='#home' aria-label='home page'><img alt='nylos-logo' src={logo} className='md:hidden w-40 ml-2 sm:w-60 sm:mt-7'/></a>
+                 <a href='#home' aria-label='home page logo'><img alt='nylos-logo' src={logo2}  className='absolute hidden md:block md:m-0 md:mt-0 md:h-12 lg:h-15 xl:h-20'/></a>
              </div>
             <div className='text-left text-right sm:col-start-3 sm:col-end-13 sm:h-20 md:mr-0 md:pt-5 md:col-start-4 lg:mt-7 lg:mr-0 xl:mr-20'>
                   {
@@ -100,12 +100,12 @@ function App() {
                     </div> 
 }
                 <span className='hidden md:inline rounded-full py-6 px-14 h-20 md:px-5 md:pr-0  lg:mt-20 headerSpan'>
-                    <Navbars text="Home" href="#home"/>                
-                    <Navbars text="About" href="#about"/>                
-                    <Navbars text="Services" href="#services"/>                
-                    <Navbars text="Testimonial" href="#testimonial"/>                
-                    <Navbars text="Solutions" href="#solutions"/>                
-                    <a href='#footer' className='hidden md:block bg-white text-blackText font-bold text-lg rounded-full py-6 px-14 -mr-5 ml-5 md:block md:mt-14 md:float-right md:mr-8 lg:inline lg:mr-0 lg:-mt-5 lg:mr-0 pointer'>Contact Us</a>
+                <Navbars href="#home" text="Home" ariaLabel="see our home page"/>
+                        <Navbars href="#about" text="About" ariaLabel="Read more about us"/>
+                        <Navbars href="#services" text="Services" ariaLabel="Read more about about our services"/>
+                        <Navbars href="#testimonial" text="Testimonial" ariaLabel="Read more about Testimonials"/>
+                        <Navbars href="#solutions" text="Solutions" ariaLabel="Read more about Solutions"/>                
+                    <a href='#footer' aria-label='contact us footer' className='hidden md:block bg-white text-blackText font-bold text-lg rounded-full py-6 px-14 -mr-5 ml-5 md:block md:mt-14 md:float-right md:mr-8 lg:inline lg:mr-0 lg:-mt-5 lg:mr-0 pointer'>Contact Us</a>
                 </span>
             </div>
             {
@@ -116,13 +116,13 @@ function App() {
                         <span className='bg-gradient-to-b from-gradientFirst to-gradientSecond w-8 h-1 block my-2 second'></span>
                         <span className='bg-gradient-to-b from-gradientFirst to-gradientSecond w-4 h-1 block third'></span>
                     </div>
-                    <Navbars text="Home" href="#home"/>                
-                    <Navbars text="About" href="#about"/>                
-                    <Navbars text="Services" href="#services"/>                
-                    <Navbars text="Testimonial" href="#testimonial"/>                
-                    <Navbars text="Solutions" href="#solutions"/> 
-                    <img src={logo2} className='w-40'/>                
-                    <div href='#footer' className='mt-10 mb-10 bg-[#F4F4F4] text-blackText font-bold text-md rounded-full py-5 w-40 float-left'>Contact Us</div>
+                        <Navbars href="#home" text="Home" ariaLabel="see our home page"/>
+                        <Navbars href="#about" text="About" ariaLabel="Read more about us"/>
+                        <Navbars href="#services" text="Services" ariaLabel="Read more about about our services"/>
+                        <Navbars href="#testimonial" text="Testimonial" ariaLabel="Read more about Testimonials"/>
+                        <Navbars href="#solutions" text="Solutions" ariaLabel="Read more about Solutions"/> 
+                    <img src={logo2}  alt='nylos-logo' className='w-40'/>                
+                    <div href='#footer' aria-label='contact us footer' className='mt-10 mb-10 bg-[#F4F4F4] text-blackText font-bold text-md rounded-full py-5 w-40 float-left'>Contact Us</div>
                     <div className='mt-20 pl-3'>
                             <p className='font-lexend font-normal text-sm'>EMAIL US</p>
                             <h1 className='font-lexend font-normal text-2xl'>info@nylos.com</h1>
@@ -148,7 +148,7 @@ function App() {
             </div>
         </div>
         <div className='sm:w-screen sm:px-20 text-center md:w-auto md:px-0 lg:-mt-10 xl:mt-20'>
-            <img src={image} className='ml-10 w-screen sm:ml-0 sm:-mt-10 mt-0 md:ml-20 md:w-full lg:ml-20 xl:ml-10 homeImage'/>
+            <img alt='home graphical image' src={image} className='ml-10 w-screen sm:ml-0 sm:-mt-10 mt-0 md:ml-20 md:w-full lg:ml-20 xl:ml-10 homeImage'/>
         </div>
         <div>
 
@@ -165,13 +165,13 @@ function App() {
  */}                </div>
                 <div className='gap-2 py-7 pr-1 grid grid-cols-2 sm:py-0 sm:pr-0 sm:gap-5 md:gap-10 md:pr-20 lg:px-0 lg:py-0 xl:pl-10'>
                     <div className='mx-auto lg:p-0 lg:my-auto'>
-                        <img src={image2} className='w-40 h-52 sm:w-80 sm:h-80 lg:h-80 lg:pt-0'/>
+                        <img src={image2} alt='partners working on a laptop' className='w-40 h-52 sm:w-80 sm:h-80 lg:h-80 lg:pt-0'/>
                     </div>
                     <div className='row-span-2 sm:pt-20'>
-                        <img src={image1} className='h-full sm:w-80 sm:h-full'/>
+                        <img src={image1} alt='employee working on a laptop' className='h-full sm:w-80 sm:h-full'/>
                     </div>
                     <div className='mx-auto lg:my-auto' >
-                        <img src={image3} className='w-40 h-52 sm:w-80 sm:h-80 lg:h-80'/>
+                        <img alt='software developer' src={image3} className='w-40 h-52 sm:w-80 sm:h-80 lg:h-80'/>
                     </div>
                 </div>
                 <div className='px-5 sm:pt-10 md:pr-10 lg:pt-52 lg:pr-5 xl:pr-40 '>
@@ -195,7 +195,7 @@ function App() {
                 <div className='font-nunito grid grid-cols-1 lg:grid-cols-3 gap-12  xl:px-24 xl:py-10'>
                     <div className='py-10 md:max-lg:grid md:max-lg:grid-cols-2 lg:h-full px-5 lg:pt-5 lg:py-0 xl:py-14 rounded-3xl'>
                         <div className='flex justify-center'>
-                            <img src={image4} className=' w-80 h-56  xl:w-96 xl:h-60'/>
+                            <img alt='continuous support' src={image4} className=' w-80 h-56  xl:w-96 xl:h-60'/>
                         </div>
                         <div className='md:max-lg:pt-10'>
                             <h1 className='font-bold text-3xl text-blackText md:max-lg:pb-5 lg:pt-0 xl:pt-8'>Continuous Support</h1>
@@ -205,7 +205,7 @@ function App() {
                     </div>
                     <div className='bg-gradient-to-b from-gradientFirst to-gradientSecond md:max-lg:grid md:max-lg:grid-cols-2 xl:h-full px-5 py-14 rounded-3xl lg:pt-7 lg:py-10 xl:py-14'>
                         <div className='flex justify-center'>
-                            <img src={image5} className='w-80 h-56  xl:w-96 xl:h-60'/>
+                            <img alt='system maintenance' src={image5} className='w-80 h-56  xl:w-96 xl:h-60'/>
                         </div>
                         <div className='md:max-lg:pt-10 text-white'>
                             <h1 className='font-bold text-3xl md:max-lg:pb-5 lg:pt-0 xl:pt-8'>System Maintenance</h1>
@@ -215,7 +215,7 @@ function App() {
                     </div>
                     <div className='py-10 md:max-lg:grid md:max-lg:grid-cols-2 lg:h-full px-5 lg:pt-5 lg:py-0 xl:py-14 rounded-3xl'>
                         <div className='flex justify-center'>
-                            <img src={image6} className=' w-80 h-56  xl:w-96 xl:h-60'/>
+                            <img alt='user training' src={image6} className=' w-80 h-56  xl:w-96 xl:h-60'/>
                         </div>
                         <div className='md:max-lg:pt-10'>
                             <h1 className='font-bold text-blackText mt-5 md:mt-0 text-3xl md:max-lg:pb-5 lg:pt-0 xl:pt-8'>User Training</h1>
@@ -234,7 +234,7 @@ function App() {
                     <p className='font-nunito font-base text-xl text-text79 my-8'>Just as the Nile's rich silt benefits the lands it touches, NYLOS brings numerous features that benefit your business.</p>
                     <div className='grid grid-cols-12'>
                         <div className='col-span-3 sm:col-span-2 bg-gradient-to-b from-gradientFirst to-gradientSecond rounded-2xl flex justify-center'>
-                            <img src={image7} className='w-14 h-24 '/>
+                            <img alt='unlock hr excellence' src={image7} className='w-14 h-24 '/>
                         </div>
                         <div className='col-span-9 pl-5 sm:col-span-10 sm:pl-7 lg:pr-14 lg:pl-5'>
                             <h1 className='font-syne font-bold text-xl pb-3 xl:text-3xl'>HR Management</h1>
@@ -243,7 +243,7 @@ function App() {
                     </div>
                 </div>
                <div className='w-full sm:w-auto sm:max-md:my-10 pr-10 pl-2 sm:px-16 sm:py-12 lg:pt-10 flex justify-center feature'>
-                    <img src={image8} className='w-auto py-10 sm:py-auto xl:px-14 xl:py-5'/>
+                    <img alt='hr management' src={image8} className='w-auto py-10 sm:py-auto xl:px-14 xl:py-5'/>
                 </div> 
             </div>
     
@@ -368,7 +368,7 @@ function App() {
                     <div className='py-5 sm:py-auto sm:pr-40 lg:px-10'>
                         <div className='grid grid-cols-11 gap-0 lg:pb-7'>
                             <div className='col-span-2 flex justify-center p-3 bg-gray-100 rounded-xl'>
-                                <img src={image14} />
+                                <img alt='solutions icon' src={image14} />
                             </div>
                             <div className='col-span-9 pl-3'>
                                 <h1 className='font-syne font-bold text-3xl lg:text-4xl'>Lorem ipsum dolor sit amet</h1>
@@ -383,7 +383,7 @@ function App() {
                         </ul>
                     </div>
                     <div className='flex pb-10 my-10 md:max-lg:my-10 md:py-auto justify-center lg:justify-left'>
-                        <img src={image15} className=' sm:px-8 sm:pb-8'/>
+                        <img alt='nylos hris' src={image15} className=' sm:px-8 sm:pb-8'/>
                     </div>
                 </div> 
                 <div className='lg:hidden font-nunito font-bold text-2xl text-blackText grid gap-8 grid-cols-1'>
@@ -416,7 +416,7 @@ function App() {
             </div>
                 
             <div className='order-1 sm:flex sm:justify-center lg:order-2'>
-                <img src={image16}/>
+                <img alt='start your journey ' src={image16}/>
             </div>  
             </div>
 
@@ -424,14 +424,14 @@ function App() {
 
         <div id='footer' className='-mt-60 w-full text-white pl-3 pb-10 grid grid-cols-1 gap-7 pt-10 sm:grid-cols-1 md:mt-10 md:grid-cols-2 md:pt-10 md:gap-0 md:py-20 md:px-10 footer'>
                 <div className='order-2 md:order-1 md:pt-48 lg:pt-40 xl:pl-28'>
-                    <img src={logo} className='mt-5'/>
+                    <img alt='nylos-logo' src={logo} className='mt-5'/>
                     <p className='font-nunito font-light text-lg pt-5 pl-6 md:pl-0 lg:pt-10'>Start your Journey today with NYLOS. With our commitment to continuous support and comprehensive HR solutions, NYLOS is here to propel your HR operations into a state of flow. Sign up today to experience the power of the Nile in your business.</p>
                     <ul className='py-5 pl-6 md:pl-0 lg:py-8'>
-                        <FooterItems href="#home" text="Home"/>
-                        <FooterItems href="#about" text="About"/>
-                        <FooterItems href="#services" text="Services"/>
-                        <FooterItems href="#testimonial" text="Testimonial"/>
-                        <FooterItems href="#solutions" text="Solutions"/>
+                        <FooterItems href="#home" text="Home" ariaLabel="see our home page"/>
+                        <FooterItems href="#about" text="About" ariaLabel="Read more about us"/>
+                        <FooterItems href="#services" text="Services" ariaLabel="Read more about about our services"/>
+                        <FooterItems href="#testimonial" text="Testimonial" ariaLabel="Read more about Testimonials"/>
+                        <FooterItems href="#solutions" text="Solutions" ariaLabel="Read more about Solutions"/>
                     </ul>
                     <div className='grid grid-cols-12 pl-5 md:pl-0'>
                         <div className='col-span-2 lg:col-span-1 pt-0 pl-5 h-10 mt-5  lg:pl-3 footerLinks text-center flex items-center'>

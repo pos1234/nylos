@@ -8,7 +8,7 @@ const NavbarContainer = ({children})=>{
 const Navbars = (props)=>{
     return(
         <NavbarContainer>
-                <a href={props.href}>{props.text}</a>
+                <a href={props.href} aria-label={props.ariaLabel}>{props.text}</a>
         </NavbarContainer>
     )
 }

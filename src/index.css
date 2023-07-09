@@ -19,7 +19,7 @@
     transition: all 1s;
 }
 .homeContainer{
-    background-image: url('./images/Background.svg') ;
+    background-image: url('./images/Background.webp') ;
     background-repeat: no-repeat;
     background-position-x: 27rem;
     background-size: 70rem;
@@ -65,13 +65,13 @@
     right:0;
 }
 .feature{
-    background-image: url('./images/Background2.svg');
+    background-image: url('./images/Background2.webp');
     background-repeat: no-repeat;
     background-position-x: 100%;
     background-size:14rem;
 }
 .featureFirstChild{
-    background-image: url('./images/Background4.svg');
+    background-image: url('./images/Background4.webp');
     background-repeat: no-repeat;
     background-position-x: 0rem;
     background-size: cover;
@@ -82,7 +82,7 @@
     -webkit-text-fill-color: transparent;
 }
 .booking{
-    background-image: url('./images/Background6.svg');
+    background-image: url('./images/Background6.webp');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -90,7 +90,7 @@
    background-color: rgba(255, 255, 255, .1); 
 }
 .footer{
-    background-image: url('./images/BG.svg');
+    background-image: url('./images/BG.webp');
     background-repeat: no-repeat;
 }
 .footerLinks{
@@ -137,7 +137,7 @@
         overflow-x: hidden;
     }
     .footer{
-        background-image: url('./images/BG.svg');
+        background-image: url('./images/BG.webp');
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: -4rem;
@@ -146,7 +146,7 @@
 @media (max-width:768px){
     .homeContainer{
         overflow-x: hidden;
-        background-image: url('./images/Background.svg') ;
+        background-image: url('./images/Background.webp') ;
         background-repeat: no-repeat;
         background-position-x: -25rem;
         background-size: 87rem;
@@ -167,7 +167,7 @@
         background-position-x:120%;
     } 
     .footer{
-        background-image: url('./images/BG.svg');
+        background-image: url('./images/BG.webp');
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: -4rem;
