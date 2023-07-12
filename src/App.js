@@ -32,7 +32,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import emailjs from '@emailjs/browser';
 import FooterItems from './components/FooterItems';
-function App() {
+const App = ()=>{
    const [toggle,setToggle] = useState(false);
     const [abc,setAbc] = useState(true);
     const [start,setStart]= useState(1);
@@ -122,7 +122,7 @@ function App() {
                         <Navbars href="#testimonial" text="Testimonial" ariaLabel="Read more about Testimonials"/>
                         <Navbars href="#solutions" text="Solutions" ariaLabel="Read more about Solutions"/> 
                     <img src={logo2}  alt='nylos-logo' className='w-40'/>                
-                    <div href='#footer' aria-label='contact us footer' className='mt-10 mb-10 bg-[#F4F4F4] text-blackText font-bold text-md rounded-full py-5 w-40 float-left'>Contact Us</div>
+                    <div href='#footer' aria-label='contact us footer' className='mt-10 mb-10 bg-[#F4F4F4] text-blackText text-center font-bold text-md rounded-full py-5 w-40 float-left'>Contact Us</div>
                     <div className='mt-20 pl-3'>
                             <p className='font-lexend font-normal text-sm'>EMAIL US</p>
                             <h1 className='font-lexend font-normal text-2xl'>info@nylos.com</h1>
@@ -133,11 +133,11 @@ function App() {
                 }
         </div>
     <div className=' pr-20 pt-20 grid grid-cols-1 md:grid-cols-2 xl:pt-0'>
-        <div className=' w-screen px-5 sm:pl-2 sm:pr-5 md:w-3/4 md:px-2 lg:w-auto lg:pl-7 lg:mt-20 xl:px-20 xl:mt-40'>
-            <h1 className='font-bold font-syne text-4xl sm:text-6xl leading-none text-blackText md:text-4xl lg:text-5xl xl:text-6xl'>Experience the Power of Flow with NYLOS.</h1>
-            <p className='font-nunito text-text79  mt-3 pt-5 sm:mt-auto sm:leading-9 font-normal text-base sm:text-2xl lg:text-xl'> Harnessing the vitality and continuity of the Nile, NYLOS is your dedicated partner for streamlining HR operations. 
+        <div className=' w-screen px-5 sm:pl-2 sm:pr-5 md:w-4/5 md:px-2 lg:w-auto lg:pl-7 lg:mt-20 xl:px-20 xl:mt-40'>
+            <h1 className='font-bold font-syne text-4xl text-white  sm:text-6xl leading-none md:text-blackText md:text-3xl lg:text-5xl xl:text-6xl'>Experience the Power of Flow with NYLOS.</h1>
+            <p className='font-nunito text-text79 font-normal text-white  text-base mt-3 pt-5 sm:mt-auto sm:leading-9 sm:text-2xl md:text-fadedText md:text-lg lg:text-xl'> Harnessing the vitality and continuity of the Nile, NYLOS is your dedicated partner for streamlining HR operations. 
             </p>
-            <p className='font-nunito text-text79  mt-3 pt-3 sm:mt-auto sm:leading-9 font-normal text-base sm:text-2xl lg:text-xl'>  From recruiting to retirement, our comprehensive Human Resource Information System (HRIS) allows you to manage your workforce effectively while ensuring compliance with Ethiopian tax and labor laws.
+            <p className='font-nunito text-text79  mt-3 pt-3 sm:mt-auto text-white sm:leading-9 font-normal text-base sm:text-2xl md:text-fadedText md:text-lg lg:text-xl'>  From recruiting to retirement, our comprehensive Human Resource Information System (HRIS) allows you to manage your workforce effectively while ensuring compliance with Ethiopian tax and labor laws.
             </p>
             <div className='mt-10 px-14'>
                 <button className='font-nunito bg-gradient-to-b from-gradientFirst to-gradientSecond w-60 h-14 sm:w-48 sm:h-16 px-2 py-1 text-white rounded-full sm:mr-2.5 mb-4 font-bold text-lg'>Get Started</button>
@@ -148,14 +148,13 @@ function App() {
             </div>
         </div>
         <div className='sm:w-screen sm:px-20 text-center md:w-auto md:px-0 lg:-mt-10 xl:mt-20'>
-            <img alt='home graphical image' src={image} className='ml-10 w-screen sm:ml-0 sm:-mt-10 mt-0 md:ml-20 md:w-full lg:ml-20 xl:ml-10 homeImage'/>
+            <img alt='home graphical view' src={image} className='ml-10 w-screen mt-0 sm:ml-0  md:ml-20 md:w-full md:mt-20 lg:mt-0 lg:ml-20 xl:ml-10 homeImage'/>
         </div>
         <div>
 
         </div>
     </div>
         </div>
-
        {/* About Page */}
 
        <div id='about' className='grid grid-cols-1 pt-20 lg:px-0 sm:px-0 md:pt-5 md:pl-3 lg:pt-20 lg:grid-cols-2 lg:pl-5 '>
@@ -163,15 +162,15 @@ function App() {
                     <h1 className='font-nunito font-semibold text-lg gradientText'>Why Choose Us</h1>
 {/*                     <h2 className='font-syne font-bold text-2xl'></h2>
  */}                </div>
-                <div className='gap-2 py-7 pr-1 grid grid-cols-2 sm:py-0 sm:pr-0 sm:gap-5 md:gap-10 md:pr-20 lg:px-0 lg:py-0 xl:pl-10'>
+                <div className='gap-2 py-7 pr-1 grid grid-cols-2 sm:py-0 sm:pr-0 sm:gap-5 md:gap-10 md:pr-20 lg:gap-5 lg:px-0 lg:py-0 xl:pl-10'>
                     <div className='mx-auto lg:p-0 lg:my-auto'>
-                        <img src={image2} alt='partners working on a laptop' className='w-40 h-52 sm:w-80 sm:h-80 lg:h-80 lg:pt-0'/>
+                        <img src={image2} alt='partners working on a laptop' className='sm:px-5 w-40 h-52 sm:w-80 sm:h-80 lg:max-h-80 lg:pt-0'/>
                     </div>
                     <div className='row-span-2 sm:pt-20'>
-                        <img src={image1} alt='employee working on a laptop' className='h-full sm:w-80 sm:h-full'/>
+                        <img src={image1} alt='employee working on a laptop' className='max-h-full py-20 sm:w-80 sm:h-full'/>
                     </div>
                     <div className='mx-auto lg:my-auto' >
-                        <img alt='software developer' src={image3} className='w-40 h-52 sm:w-80 sm:h-80 lg:h-80'/>
+                        <img alt='software developer' src={image3} className='sm:px-5 w-40 h-52 sm:w-80 sm:h-80 lg:h-80'/>
                     </div>
                 </div>
                 <div className='px-5 sm:pt-10 md:pr-10 lg:pt-52 lg:pr-5 xl:pr-40 '>
@@ -233,8 +232,8 @@ function App() {
                     <h1 className='font-syne font-bold text-blackText text-4xl  xl:5xl'>Unlock HR Excellence with NYLOS.</h1>
                     <p className='font-nunito font-base text-xl text-text79 my-8'>Just as the Nile's rich silt benefits the lands it touches, NYLOS brings numerous features that benefit your business.</p>
                     <div className='grid grid-cols-12'>
-                        <div className='col-span-3 sm:col-span-2 bg-gradient-to-b from-gradientFirst to-gradientSecond rounded-2xl flex justify-center'>
-                            <img alt='unlock hr excellence' src={image7} className='w-14 h-24 '/>
+                        <div className='col-span-3 sm:col-span-2 bg-gradient-to-b from-gradientFirst to-gradientSecond rounded-2xl flex justify-center p-3 md:p-5 md:max-h-28 lg:p-3 xl:p-5 lg:max-h-24'>
+                            <img alt='unlock hr excellence' src={image7} className=' '/>
                         </div>
                         <div className='col-span-9 pl-5 sm:col-span-10 sm:pl-7 lg:pr-14 lg:pl-5'>
                             <h1 className='font-syne font-bold text-xl pb-3 xl:text-3xl'>HR Management</h1>

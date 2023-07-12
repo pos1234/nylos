@@ -23,11 +23,12 @@
     background-repeat: no-repeat;
     background-position-x: 27rem;
     background-size: 70rem;
+    overflow-y: hidden;
 }
-.homeImage{
+/* .homeImage{
     width: 769px;
     height: 584px;
-}
+} */
 .headerSpan{
     background-color: rgba(255, 255, 255, .1);
     height: 690px;
@@ -148,8 +149,8 @@
         overflow-x: hidden;
         background-image: url('./images/Background.webp') ;
         background-repeat: no-repeat;
-        background-position-x: -25rem;
-        background-size: 87rem;
+        background-position-x: -30rem;
+        background-size: 100rem;
     }
     .feature{
         background-size: 16rem;
