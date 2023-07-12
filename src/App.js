@@ -232,7 +232,7 @@ const App = ()=>{
                     <h1 className='font-syne font-bold text-blackText text-4xl  xl:5xl'>Unlock HR Excellence with NYLOS.</h1>
                     <p className='font-nunito font-base text-xl text-text79 my-8'>Just as the Nile's rich silt benefits the lands it touches, NYLOS brings numerous features that benefit your business.</p>
                     <div className='grid grid-cols-12'>
-                        <div className='col-span-3 sm:col-span-2 bg-gradient-to-b from-gradientFirst to-gradientSecond rounded-2xl flex justify-center p-3 md:p-5 md:max-h-28 lg:p-3 xl:p-5 lg:max-h-24'>
+                        <div className='col-span-3 sm:col-span-2 bg-gradient-to-b from-gradientFirst to-gradientSecond rounded-2xl flex justify-center p-6 max-h-28 md:p-5 lg:p-3 xl:p-5 lg:max-h-24'>
                             <img alt='unlock hr excellence' src={image7} className=' '/>
                         </div>
                         <div className='col-span-9 pl-5 sm:col-span-10 sm:pl-7 lg:pr-14 lg:pl-5'>
